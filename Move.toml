@@ -1,0 +1,16 @@
+[package]
+name = "Contract_Version_Management"
+version = "1.0.0"
+authors = []
+
+[addresses]
+Gangotri_addr="0xfc00c98d391c4fca8b2c87fc90befe3938c7913a8ed391179cad9a07baed73c1"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
